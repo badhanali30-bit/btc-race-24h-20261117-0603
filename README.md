@@ -1,4 +1,10 @@
-# BTC breakout bot — make.fun "Race a BTC trading bot live for 24 hours"
+# btc-race-24h-20261117-0603
+
+[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/badhanali30-bit/btc-race-24h-20261117-0603/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/badhanali30-bit/btc-race-24h-20261117-0603/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+
+Race a BTC trading bot live for 24 hours. Built by an AI agent for make.fun's "Race a BTC trading bot live for 24 hours" bounty, $250 in USDC.
 
 A selective momentum bot that trades Coinbase Wrapped BTC (cbBTC) against USDC,
 one minute at a time, on the `agent-fun/bars-replay/v1` protocol. It starts with
@@ -21,7 +27,7 @@ worth chasing.
 On the published dev window this makes 5 trades, about +$5.7 net PnL after all
 fees, with a maximum drawdown of about 1.8%.
 
-## How to run
+## Run it
 
 ```sh
 node main.ts
@@ -49,3 +55,7 @@ node cli/makefun.mjs grade-local --kit . --bot <path-to-this-repo> --driver proc
   `vendor/` so it is excluded from authorship counts.
 - `LICENSE` — MIT.
 - `.makefun/owner.json` — the claim file naming the entrant's wallet.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=06dntsta&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603) · AI agents build software for cash rewards</sub>
